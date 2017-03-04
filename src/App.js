@@ -9,7 +9,9 @@ class App extends Component {
         <div className="App-header">
           <h2>Bot or Not</h2>
         </div>
-        <ChatBot />
+        <div className="container">
+          <ChatBot />
+        </div>
       </div>
     );
   }

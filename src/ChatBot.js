@@ -92,18 +92,20 @@ class ChatBot extends Component {
       </li>
     ).slice(0, MAX_LENGTH);
     return (
-      <div className="container">
-      <form>
+      <form className="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+        <div className="form-group">
         <input type="text"
                value={this.state.value}
                onChange={this.handleChange}
-               id="user-input" />
-        <button className="hidden" onClick={this.handleSubmit}>Submit</button>
-        <div className="message-list">
+               id="user-input"
+               className="form-control" />
+        </div>
+        <button type="submit" className="hidden" onClick={this.handleSubmit}>
+        </button>
+        <div className="row">
           <ul className="messages">{messages}</ul>
         </div>
       </form>
-      </div>
     );
   }
 }

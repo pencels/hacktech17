@@ -12,19 +12,29 @@
   color: white;
 }
 
-.container {
-  width: 800px;
-  margin: 50px auto;
-}
-
-.message-list {
-  height: 600px;
-  overflow: hidden;
-}
 
 #user-input {
+  margin-top: 20px;
   padding: 10px;
-  width: 90%;
+  border-radius: 0;
+}
+
+/* Remove that blue highlight please */
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
 }
 
 .hidden {
@@ -35,13 +45,12 @@ ul.messages {
   list-style: none;
   text-decoration: none;
   padding: 0;
-  max-width: inherit;
 }
 
 ul.messages li {
   text-align: left;
   padding: 10px;
   border-bottom: 1px solid black;
-  max-width: inherit;
   overflow-wrap: break-word;
 }
+
