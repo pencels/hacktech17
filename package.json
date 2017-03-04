@@ -1,7 +1,10 @@
 {
-  "name": "hacktech",
+  "name": "hacktech17-160517",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=4.3.2"
+  },
   "devDependencies": {
     "react-scripts": "0.9.3"
   },
