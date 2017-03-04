@@ -26,7 +26,35 @@ class ChatBot extends Component {
 
   handleSubmit(event) {
     // Don't count empty string or whitespace as message.
-    if (/\S/.test(this.state.value)) {
+    var msg = this.state.value;
+    var words = msg.split(" ");
+    console.log(msg);
+    var delay = Math.pow((Math.pow(msg.length, 0.333) + (Math.random() * 2 - 1)) * Math.pow(words.length, 0.333), 0.69) * 1000;
+	console.log(delay);
+	if (/\S/.test(this.state.value)) {
+      	this.setState(prevState => ({
+        messages: prepend(prevState.messages, {
+          sen: 'user',
+          msg: this.state.value
+        }),
+        value: ''
+      	}));
+    	setTimeout((function() {
+    		console.log(WL_API + ENDPT);
+    		console.log(DATA(msg));
+    		$.get(WL_API + ENDPT, DATA(msg))
+       		.done(function (res) {
+       			console.log(res);
+          		this.setState(prevState => ({
+            		messages: prepend(prevState.messages, {
+              			sen: 'bot',
+              			msg: res
+            		})
+          		}));
+        	}.bind(this));
+    	}).bind(this), delay);
+    }
+    /*if (/\S/.test(this.state.value)) {
       this.setState(prevState => ({
         messages: prepend(prevState.messages, {
           sen: 'user',
@@ -43,7 +71,7 @@ class ChatBot extends Component {
             })
           }));
         }.bind(this));
-    }
+    }*/
     event.preventDefault();
   }
 
