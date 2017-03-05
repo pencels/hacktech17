@@ -4,6 +4,8 @@
 
 html {
   background: url('http://i.imgur.com/eJlatuG.gif’);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .App {
@@ -20,7 +22,7 @@ html {
   padding: 22px 10px;
   border-radius: 2px;
   border: 0px;
-  background: rgba(0,0,0,0.2);
+  background: rgba(255,255,255,0.2);
 }
 
 #user-input:focus {
