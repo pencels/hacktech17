@@ -58,3 +58,15 @@ ul.messages li {
   overflow-wrap: break-word;
 }
 
+.bottom-screen {
+  position: absolute;
+  top: 50em;
+}
+
+.Buttons-div {
+  margin-top: 1em;
+}
+
+.Buttons-margin {
+  margin: 1em;
+}
