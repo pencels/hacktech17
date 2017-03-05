@@ -3,7 +3,6 @@ import $ from 'jquery';
 
 const WL_API =
   'https://www.wolframcloud.com/objects/053ee82a-001c-4d2b-b814-b24eba0b5898';
-  //'https://www.wolframcloud.com/objects/7e814b1a-5f27-43e6-884b-4fc63bf1051a';
 const ENDPT = '/Result';
 const DATA = d => ({
   str: d
@@ -25,36 +24,13 @@ class ChatBot extends Component {
   }
 
   handleSubmit(event) {
-    // Don't count empty string or whitespace as message.
     var msg = this.state.value;
     var words = msg.split(" ");
     console.log(msg);
     var delay = Math.pow((Math.pow(msg.length, 0.333) + (Math.random() * 2 - 1)) * Math.pow(words.length, 0.333), 0.69) * 1000;
-	console.log(delay);
-	if (/\S/.test(this.state.value)) {
-      	this.setState(prevState => ({
-        messages: prepend(prevState.messages, {
-          sen: 'user',
-          msg: this.state.value
-        }),
-        value: ''
-      	}));
-    	setTimeout((function() {
-    		console.log(WL_API + ENDPT);
-    		console.log(DATA(msg));
-    		$.get(WL_API + ENDPT, DATA(msg))
-       		.done(function (res) {
-       			console.log(res);
-          		this.setState(prevState => ({
-            		messages: prepend(prevState.messages, {
-              			sen: 'bot',
-              			msg: res
-            		})
-          		}));
-        	}.bind(this));
-    	}).bind(this), delay);
-    }
-    /*if (/\S/.test(this.state.value)) {
+    console.log(delay);
+    // Don't count empty string or whitespace as message.
+    if (/\S/.test(this.state.value)) {
       this.setState(prevState => ({
         messages: prepend(prevState.messages, {
           sen: 'user',
@@ -62,16 +38,19 @@ class ChatBot extends Component {
         }),
         value: ''
       }));
-      $.get(WL_API + ENDPT, DATA(this.state.value))
-       .done(function (res) {
-          this.setState(prevState => ({
-            messages: prepend(prevState.messages, {
-              sen: 'bot',
-              msg: res
-            })
-          }));
-        }.bind(this));
-    }*/
+      setTimeout((function() {
+        // Get response from endpoint and display.
+        $.get(WL_API + ENDPT, DATA(msg))
+          .done(function (res) {
+              this.setState(prevState => ({
+                messages: prepend(prevState.messages, {
+                    sen: 'bot',
+                    msg: res
+                })
+              }));
+          }.bind(this));
+      }).bind(this), delay);
+    }
     event.preventDefault();
   }
 

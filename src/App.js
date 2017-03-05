@@ -8,6 +8,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <h2>Bot or Not</h2>
+          <span className="glyphicon glyphicon-eye-close" aria-hidden="true">
+          </span>
         </div>
         <div className="container">
           <ChatBot />

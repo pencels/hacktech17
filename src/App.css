@@ -12,7 +12,6 @@
   color: white;
 }
 
-
 #user-input {
   margin-top: 20px;
   padding: 10px;
@@ -39,6 +38,11 @@ label:focus,
 
 .hidden {
   display: none !important;
+}
+
+.glyphicon {
+  margin: 5px 0;
+  font-size: 30px;
 }
 
 ul.messages {
