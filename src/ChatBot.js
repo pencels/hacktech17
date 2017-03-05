@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 
-const WL_API = 'https://www.wolframcloud.com/objects/cpence/Evolutionary';
+const WL_API = 'https://www.wolframcloud.com/objects/19fc0d14-b2a3-40f2-8fa7-1e22101b051d';
 const RESPONSE = '/respondTo';
 const ADD_HUMAN = '/addHumanMsg';
 const ADD_BOT = '/addBotMsg';
