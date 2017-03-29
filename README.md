@@ -10,17 +10,17 @@ The bot didn't get very far due to lack of training, and also because this was t
 ## Training files
 These are the files passed to a `Classify[]` function to train it to classify speech as "human" or not
 - `hamlet/`
- - `hamlet.txt`: _Hamlet_ in plaintext, taken from [gutenberg](http://www.gutenberg.org/ebooks/1524)
- - `assoc_hamlet.txt`: Associations of lines to responses to those lines, taken from the play
- - `hamlet_assoc.py`: A Python script that generates the line associations
+  - `hamlet.txt`: _Hamlet_ in plaintext, taken from [gutenberg](http://www.gutenberg.org/ebooks/1524)
+  - `assoc_hamlet.txt`: Associations of lines to responses to those lines, taken from the play
+  - `hamlet_assoc.py`: A Python script that generates the line associations
 - `keypeele/`
- - `chainwax.txt`: Source text from a Key & Peele skit
- - `chainwax_assoc.txt`: Generated associations from the skit
- - `keynpeele_assoc.py`: Python script generating the associations
+  - `chainwax.txt`: Source text from a Key & Peele skit
+  - `chainwax_assoc.txt`: Generated associations from the skit
+  - `keynpeele_assoc.py`: Python script generating the associations
 - `wolfram/`
- - `human_msgs.txt` and `notbotData.txt`: stored messages typed by the user and "approved" generated responses by the bot
- - `bot_msgs.txt` and `botData.txt`: stored generated messages by the bot that were not "approved"
- - `hardcoded.txt`: a hardcoded associative array of responses that was used early on
+  - `human_msgs.txt` and `notbotData.txt`: stored messages typed by the user and "approved" generated responses by the bot
+  - `bot_msgs.txt` and `botData.txt`: stored generated messages by the bot that were not "approved"
+  - `hardcoded.txt`: a hardcoded associative array of responses that was used early on
 
 ## `wolfram/` Notebooks:
 Note: Sadly, there isn't an easy way to export notebooks as clean plaintext files, so reading them as they are won't be very interesting, unless you have a piece of Wolfram software that can open them.
