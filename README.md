@@ -4,11 +4,17 @@ Chatbot implemented at Hacktech '17 which takes user input and tries to learn to
 The "brains" were written in `Wolfram` language, using the notebooks on the Wolfram Development Platform and its quick API setup feature to get it hooked up to a webpage. The website was written with React, and hosted using Google's App Engine, but is down due to costs.
 
 The bot didn't get very far due to lack of training, and also because this was the first time our team dealt with anything related to machine learning. Nonetheless, we got some fun stuff out of it (read from bottom to top):
-
 ![Sassy (:](bye.png)
 
+## Running it
+Disclaimer: this isn't an active version of the chatbot, and only serves as a view into what the bot would appear like. The two buttons are ways for the user to communicate how convincing the bot was at being human. The user would press "Bot" if they weren't convinced, and "Not" otherwise. Regardless, you'll need `npm`, and to run:
+```
+$ npm install
+$ npm start
+```
+
 ## Training files
-These are the files passed to a `Classify[]` function to train it to classify speech as "human" or not
+These are the files passed to a `Classify[]` function to train it to classify speech as "human" or not.
 - `hamlet/`
   - `hamlet.txt`: _Hamlet_ in plaintext, taken from [gutenberg](http://www.gutenberg.org/ebooks/1524)
   - `assoc_hamlet.txt`: Associations of lines to responses to those lines, taken from the play
