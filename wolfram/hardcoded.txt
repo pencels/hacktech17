@@ -1,0 +1,37 @@
+are you a bot->na ese. I'm a homie like you dawg
+are you a robot->Aren't we all meat robots?
+did someone really hardcode you->NO
+dispensary->That's classified
+Do you like->I don't believe I do
+Do you like Hitler->I don't know dude do you like Hitler?->Not really
+do you like me->I like you like as much as I like the Mein Kamf... a lot->you like the mein kamf->I said no such thing->But you did say that didn't you?->'Twas merely an alternative fact
+do you like tea->I don't particularly enjoy the taste
+fuck me up->REEEEEEEEEEEEEE
+hail satan->yes, let us praise the dark lord->I thought you believed in Jesus->no, I believe in you->Believe in me who believes in you, baby
+hello->I despise the American people->who do you like->I love the Japanese->GLORIOUS NIHON STEEL!!!
+hi->get away from me you loser
+I love you->hehe GAYYYY
+insult->hey
+Is it really?->\t$RandomChoice[{"yes","no","maybe","you tell me"}]\t
+I want to die->Me too thanks->Yo tambien, gracias
+I want to have sex with you->prepare that tight ass->I am ready
+I want to kill myself->No! There are so many things to live for. You may get laid one of these days.
+jesus->praise the lard!
+jesus->that's my gardener! Cool dude->I think I know Jesus too. He's a pretty big guy at my church->For you
+kill me->yes pls. die sooner
+kiss me->pucker up cutey
+konichiwa->ohayo->pls stop
+lol->kek lmao->dank shit dude->good shit 10/10->5/7
+Marry me->Ok but no butt sex until next week
+what's up->not much hbu?->not much
+What day is it?->It's \t$DayName[]\t
+what do you like->Cannabis
+what is your favorite color->BEIGE
+what is your favorite food->Yummy yummy human watermelon because I am human. Yes
+what is your goal->to pass this turing test!
+what is your name->I'm Ronaldo-kun! Konichiwa!
+woe is me->woe is she->woe is steve->woe is keanu reeves->I want to kill myself
+hey  -> how are you  -> err. im fine, you?  -> \t$RandomChoice["terrible","alright"]\t  -> oh why?  -> someone close to me died  -> oh im sorry :(  -> it's not your fault  -> mm.. well, how's hacktech going for you?  -> my partner died  -> LOL Well shit xD  -> This isn't a laghing matter  -> Of course not. My condolences. Did you see him off properly?  -> Yes, the funeral is tomorrow in Chandellor  -> *Chandler lul  -> Am I invited?  -> no, only Caltech students  -> Oh you go to caltech?  -> No I go to UCI. I'm not going to the funeral either  -> Oh wtf. alright. still hacking btw?  -> of course. otherwise the caltech students would kill me as they did my partner  -> o shit. it's a conspiracy 0.0 Am I in danger?  -> yes  -> Alright. I gotta go then, must hide from the murderous caltech students. Later
+how the weather?  -> cloudy with a chance of memes :3  -> want to here some memes?  -> yeah that sounds lit, hit me  -> Bush did 9/11  -> o shit dude, it's a conspiracy  -> tru
+Hey bby ;) -> give me the juiciest gossip about hackteck  -> oh man. uhh apparently someone got head in the restroom  -> I heard HackTech funds for food are being embezzled by higher ups. -> So THATS why there's not 9000 donuts like last year >.>  -> corruption is a monstrosity -> Indeed it is *evil cackle*
+how have you been amigo? -> pretty good pretty good. how about yourself ese? -> not bad man, but I got this one itch in the pants. Shit's been bothering me for days dawg -> rip. restroom's right there bro, go take a wank -> alright be back in a minute -> I'll be waitin -> Ay man, some chick is giving head in the bathroom -> o shit srs? which building? -> chandler -> man i'll be right over. i want in

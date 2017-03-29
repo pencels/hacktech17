@@ -1,0 +1,14 @@
+Notebook[{Cell[
+BoxData[{RowBox[{"ImportLines","[","f_","]"," ",":="," ","Import","[","f",","," ","{","\"Text\"",","," ","\"Lines\"","}","]"}],"\n",RowBox[
+{"appendFile","[","f_",","," ","s_","]"," ",":="," ","Export","[","f",","," ","Join","[","ImportLines","[","f","]",","," ","{","s","}","]",","," ","\"List\"","]"}],"\n",RowBox[
+{"addNotbotStr","[","str_","]"," ",":="," ","appendFile","[","\"notbotData.txt\"",","," ","str","]"}],"\n",RowBox[
+{"addbotStr","[","str_","]"," ",":="," ","appendFile","[","\"botData.txt\"",",","str","]"}]}],
+"Input",NumberMarks->False,CellLabel->"In[1]:= "],Cell[
+BoxData[{RowBox[{"setnotbot","[","x_","]"," ",":="," ","x"," ","\[Rule]"," ","\"notbot\""}],"\n",RowBox[
+{"setbot","[","x_","]"," ",":="," ","x"," ","\[Rule]"," ","\"bot\""}],"\n",RowBox[
+{"combine","[","notbotData_",","," ","botData_","]"," ",":="," ","Join","[","setnotbot"," ","/@"," ","notbotData",","," ","setbot"," ","/@"," ","botData","]"}]}],
+"Input",NumberMarks->False,CellLabel->"In[5]:= "],Cell[
+BoxData[RowBox[{RowBox[{"classify","[","input_","]"}]," ",":="," ",RowBox[
+{RowBox[{"Classify","[",RowBox[{"combine","[",RowBox[{RowBox[{"ImportLines","[","\"notbotData.txt\"","]"}],","," ",RowBox[
+{"ImportLines","[","\"botData.txt\"","]"}]}],"]"}],"]"}],"[","input","]"}]}]],"Input",
+CellID->213,CellLabel->"In[8]:= "]},StyleDefinitions->"Default.nb",FrontEndVersion->"10.0 for Wolfram Cloud Platform (June 2 2014)"]

@@ -1,0 +1,125 @@
+Hey	Hi
+Hi	How's it going?
+How's it going?	Pretty well, you?
+Pretty well, you?	Same, same.
+How's your hack coming?	Eh. Could be better.
+Eh. Could be better.	Oh? Why's that?
+Oh? Why's that?	Just problems with APIs and stuff.
+Just problems with APIs and stuff.	What're you using?
+What're you using?	Google Cloud Platform
+What're you using?	Wolfram's thing
+What're you using?	Twilio >.>
+Google Cloud Platform	Ahh how's that going?
+Google Cloud Platform	Oh me too!
+Wolfram's thing	How's that going?
+Wolfram's thing	Ah interesting
+Ahh how's that going?	Alright I guess
+Ah interesting	You?
+Oh me too!	Really? How's that going?
+Really? How's that going?	Alright I guess
+Alright I guess	Same here sigh. I'm tired.
+You?	The project's coming along, I guess
+How's that going?	Pretty well!
+Pretty well!	I wish I could say the same
+I wish	Oh?
+Oh?	Mhm.
+Well alright	Sorry if I'm not making sense lol, I'm tired.
+Sorry	No prob haha
+No prob haha	Did you sleep last night?
+Did you sleep last night?	Nah, been hacking
+Nah, been hacking	Damn, dedication xD
+Damn, dedication xD	dedication is my middle name
+Damn, dedication xD	Sometimes lul
+I'm so glad they have boba here	 I know boba is great
+I'm so glad they have boba here	 I'm not a fan of boba personally
+dedication is my middle name	In that case goodbye!
+Sometimes lul	lul
+I know boba is great	I have yet to meet someone who didn't like boba
+I'm not a fan of boba personally	 Well this conversation is over
+Goodbye	Goodbye
+Hello	Greetings
+How goes it?	Well hbu?
+Well hbu?	same
+same	same
+same	That's good to hear
+That's good to hear	 yea, my only complaint would be the lack of food
+yea, my only complaint would be the lack of food	Are you serious?
+yea, my only complaint would be the lack of food	Ha, ha nice one
+Are you serious?	No, I was just joking man
+Are you serious?	Yea
+Ha, ha nice one	Thanks I like to pride myself as being a bit of a jokester
+Thanks I like to pride myself as being a bit of a jokester	Well you shouldn't
+Well you shouldn't	Ah man you are savage
+Well you shouldn't	My feelings have been midly hurt
+No, I was just joking man	 I see
+Yea	Anyways are you going to finish your project in time?
+Ah man you are savage	Macho Man Randy Savage that is
+My feelings have been midly hurt	I don't think this is going to work, we should break up	 
+Anyways are you going to finish your project in time?	I hope so, my team is pretty lazy, but were on track
+I hope so, my team is pretty lazy, but were on track	Thats good to hear, my team is going to have to pull it togeather to finish it in time
+Thats good to hear, my team is going to have to pull it together to finish it in time	Sounds like you are motivated
+Sounds like you are motivated	Well I came to this hackathon didn't I
+yo look at my message	something also valid
+hi	yea
+hey, what's your name?	jokester
+hello there	finish your project your project in time?
+hello	lul
+hello	we should break should break up
+hi	nice one
+hello	well!
+hello	i'm tired.
+hello	well you shouldn't
+hello	well you shouldn't
+hi	could be better.
+hello	name
+hello	name
+hello	name
+hello	name
+hello	lol, i'm tired.
+hello	to hear
+my name is jeff	interesting
+my name is jeff	good to hear
+my name is jeff	good to hear
+my name is jeff	good to hear
+my name is jeff	good to hear
+hi	well alright
+hi	well alright
+hi	well alright
+hello	you serious?
+hello	you serious?
+hey	is my middle name
+Hi	using?
+Hi	using?
+hey	conversation is over
+Hi	using?
+hey	conversation is over
+sup	glad they have boba here
+sup	glad they have boba here
+hey	you using?
+hey	what're you using?
+hey	lol, i'm tired.
+hi	this is going to have to have to work, we should we should we should break up
+hey	lol, i'm tired.
+hi	this is going to have to have to work, we should we should we should break up
+hi	this is going to have to have to work, we should we should we should break up
+hello	you sleep last night?
+hi	this is going to have to have to work, we should we should we should break up
+hello	you sleep last night?
+hello	you sleep last night?
+hi	this is going to have to have to work, we should we should we should break up
+whatsup	xd
+my name is tyler	same, same.
+hey	conversation is over
+I am training you	oh me too!
+I am training you	oh me too!
+I am training you	oh me too!
+I am training you	oh me too!
+sup homie	i wish
+dont repeat	lol, i'm tired.
+dont repeat	lol, i'm tired.
+your algorithm is trash	using?
+hey you	you using?
+hey you	you using?
+hey you	you using?
+what the hek	have boba here
+what the hek	have boba here
